@@ -1,0 +1,288 @@
+                                  @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+*{ 
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed; 
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo { 
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+     color:blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px ;     
+}
+
+.navigation a:hover {
+    color: red;
+}
+section {
+    padding: 100px 200px;
+}
+ /* end header */
+.main {
+    width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background: url( backgrounds/معلومات_عامة_عن_سويسرا.jpg) no-repeat ;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+ .main h2  {
+     color: #fff;
+     font-size: 1.5em;
+      font-weight: 600;
+
+ }
+
+ .main h2 span {
+    display: inline-block; 
+    margin-top: 10px;
+    color: rgb(65, 65, 182);
+     font-size: 3em;
+     font-weight: 700;
+ }
+
+ .main h3 {
+     color: #f0f0f0;
+     font-size: 2em;
+     font-weight: 700;
+     letter-spacing: 1px;
+     margin-top: 10px;
+     margin-bottom: 30 px;
+ }
+
+ .main .button {
+   color: #fff;
+   background-color: blue;
+   text-decoration: none;
+   font-size: 1.1EM;
+   font-weight: 600;
+   display: inline-block;
+   padding:15PX 35PX ;
+   letter-spacing: 1px;
+   border-radius: 15px;
+   margin-bottom: 40 px;
+   transition: 0.7s ease;
+ }
+  
+ .main .button:hover {
+    background-color: red;
+    transform:scale(1.1);
+ }
+  
+ .title { 
+     display: flex;
+     color: black;
+     font-size: 1.5em;
+     font-weight: 800;
+     margin-bottom: 30px;
+     margin-top: 10px;
+
+ }
+  
+ .base {
+     background-color: beige;
+     text-align: center;
+     
+ }
+ .vc {
+     margin-top: 85px ;
+     margin-bottom: 40px;
+
+
+ }
+
+ 
+
+ .vid2 .spk2 ,
+   .cxxv{
+   color: black;
+   display: inline-block;
+   font-size: 1.5em;
+   font-weight: 500;
+   letter-spacing: 2px;
+   text-align: justify  ;
+ }
+ /* .card-list {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: nowrap;
+}
+  */
+
+  div p .img1 {
+     
+    float: left;
+      width: 250px;
+      height: 250px;
+      margin-right: 15px;
+  }
+
+  div p {
+      font-weight: 500;
+      font-size: 1.1em ;
+      margin-bottom: 100px;
+      padding-top: 62px ;
+      padding-bottom: 30px;
+      letter-spacing: 2px;
+  }
+
+  div p .img2 {
+      
+    float: right;
+      width: 250px;
+      height: 250px; ;
+      margin-left:15px ;
+  }
+
+  .card-list {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  .card {
+      width: 300px;
+      height: 250px;
+      margin: 20px auto;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: 0.4s;
+      box-shadow: 5px 5px 7px rgba(0,0,0,0.25), -5px -5px 30px rgba(0,0,0,0.25);
+      
+  }   
+
+  .card-image {
+      width: inherit;
+      height: inherit;
+      
+  }
+
+  .card-image img {
+      width:inherit ;
+      height: inherit;
+      border-radius: 40px;
+       
+      object-fit: cover;
+  }
+
+  .card-title {
+      text-shadow: 4px 3px yellowgreen;
+  }
+
+  .prg5 h2 {
+      font-family: Georgia, 'Times New Roman', Times, serif ;
+      color: saddlebrown;
+      margin-top: 120px;
+      margin-bottom: 30;
+      text-align: center;
+  }
+  .prg5 p {
+      font-size: 1.1em;
+      font-weight: 500;
+      color: #333;
+      margin-top: 30px;
+
+  }
+  .vid3 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
+ 
+  .vid3 video {
+    width: 400px ;
+    height: 400px ;
+  }
+
+  .tsde h2 {
+     padding-top: 30px;
+    text-align: center; 
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .tsde p {
+      margin-top: 30px ;
+      font-size: 1.1em;
+      letter-spacing: 2px;
+      text-align: justify;
+  }
+
+.ph0to {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.photo1 h2 {
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+
+
+}
+
+.photo1 img {
+    width: 253px;
+    height: 200px ;
+    margin-top:30px  ;
+    margin-left: 60px ;
+}
+
+.map h2 {
+    margin-bottom: 50px ;
+}
+
+.map {
+
+     background-image: url(backgrounds/image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h3{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+    color: #103ceb;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+

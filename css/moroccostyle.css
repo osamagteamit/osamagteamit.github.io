@@ -1,0 +1,142 @@
+html{
+    
+   
+  background-color: #062c4c;
+}
+.audio{
+border-radius: 15px;
+}
+h1{
+
+
+color: #254d9c;
+text-align: center;
+font-size: 40px;
+font-family: cursive;
+text-shadow: 2 2 2  rgb(7, 7, 74);
+
+}
+div.box{
+
+
+text-align: center;
+}
+h2{text-align: center;
+font-size: 40px;
+color: #163b62;
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+background-color:#d3e8f8;
+padding: 20px;
+font-family: Arial;
+margin: 30px;
+}
+
+/* Center website */
+.main {
+max-width: 1000px;
+margin: auto;
+display: table;
+}
+
+h1 {
+font-size: 50px;
+word-break: break-all;
+}
+
+.row {
+margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+float: left;
+width: 25%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Content */
+.content {
+background-color: white;
+padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+.column {
+width: 50%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+}
+}
+.moment{
+  background-color: white;
+  padding: 10px;
+}
+img{
+
+  width: 300px;
+  height: 200px;} 
+
+
+h3{color: #215684}       
+#ath{width: auto;
+height: auto;}
+#image{width:1000px;
+height: auto;}
+body{
+ margin: ;
+}
+video{margin: 10px;}
+.row{
+display: table;
+content: "";
+clear: both;
+margin-left: 50px;}
+div{display: block;}
+.container {
+ position: relative;
+ width: 50%;
+ max-width: 300px;
+ float: left;
+ color: #eff1ee;
+ margin-right: 20px;
+
+margin-bottom: 20px;
+}
+.over {
+position: absolute;
+bottom: 0;
+background: #25669c;
+width: 100%;
+transition: .5s ease;
+opacity: 0;
+color: white;
+font-size: 20px;
+padding: 20px;
+text-align: center;
+}
+.container:hover .over {
+opacity: 1;
+}
