@@ -1,0 +1,406 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+}
+
+/* some variable */
+:root {
+    --main-color: #060400;
+    --hover-color: hs1(37, 94%, 57%);
+    --body-color: #000000;
+    --container-color: #04040b;
+    --text-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    padding: 3rem 0 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background: var(--body-color);
+    color: var(--text-color);
+
+}
+ table {
+    width:25% ;
+    border:10px solid  rgb(34, 217, 217) ;
+    border-spacing: 12px;
+    padding: 5px;
+    margin: 100px;
+    border-radius: 25px;
+}
+
+table td {
+    padding:10px;
+    background-color: #000000ef;
+
+}
+
+
+.history {
+
+    font-size:50px ;
+    border: 0.5rem outset rgb(2, 250, 250);
+    margin: 30px;
+    width:250px;    
+    border-radius: 25px;  
+
+}
+.history-content {
+
+
+    margin-left: 60px;
+}
+
+.major {
+    font-size:50px ;
+border: 0.5rem outset rgb(2, 250, 250);
+margin: 30px;
+width:330px;
+border-radius: 25px;
+
+}
+.major-content {
+
+    margin-left: 60px;
+
+}
+
+.Transport {
+
+    font-size:50px ;
+    border: 0.5rem outset rgb(2, 250, 250);
+    margin: 30px;
+    width: 330px;
+    border-radius: 25px;
+
+
+
+} 
+.Transport-content {
+
+    margin-left: 60px;
+
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 5px;
+    width: 100%;
+    padding: relative;
+    left: 60px;
+}
+
+.heading {
+
+ border: 0.5rem outset pink;
+  outline: 0.5rem solid khaki;
+  box-shadow: 0 0 0 2rem skyblue;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+}
+
+
+.heading-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-left: 480px;
+    color: #eaeaea;
+}
+
+
+.watch-btn .play-btn {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 0.8rem;
+    color: var(--text-color);
+}
+
+.watch-btn {
+    display: flex;
+    align-items: center;
+    column-gap: 0.8rem;
+    color: var(--text-color);
+}
+
+.watch-btn .bx {
+    font-size: 21px;
+    background: #df1717;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch-btn .bx:hover {
+    background: var(--hover-color);
+}
+
+.watch-btn span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* tourisms box */
+.tourism-box {
+    height: 380px;
+ overflow: hidden;
+ position: relative;
+ font-size:50px ;
+ border: 0.5rem outset rgb(2, 250, 250);
+ margin-left: 80px;
+ width:360px;    
+ border-radius: 25px;
+
+}
+
+ .tourism-box-img { 
+     width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+} 
+
+.tourism-type {
+    font-size: 0.938rem;
+    font-weight: 500;
+}
+
+.tourism-box .box-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 14px;
+    background: linear-gradient(8deg,
+            hsl(240 17% 14% / 74%) 14%,
+            hsl(240 17% 14% / 14%) 44%);
+    overflow: hidden;
+}
+
+.tourism-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* tourisms */
+.tourisms .heading {
+    padding: 10px 14px;
+}
+
+.tourisms-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(247px, 1fr));
+    gap: 10rem;
+}
+
+.tourisms-content .tourism-box:hover .tourism-box-img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/*copyright  */
+.copyright {
+    text-align: center;
+    padding: 20px;
+}
+
+/* box1======================================================================================================================= */
+
+/* play container================================= */
+
+
+
+.tags {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    margin: 1rem 0;
+}
+
+.tags span {
+    background: var(--container-color);
+    padding: 0 4px;
+}
+
+.play-text {
+    padding: 70px;
+}
+
+.video-js {
+    width: 90%;
+    margin: 40px auto;
+}
+
+/* /* details==== */
+/* screenshots================================== */
+.screenshots {
+    width: 100%;
+    max-width: 800px;
+    margin-left: 270px;
+}
+
+.screenshots strong {
+    color: rgb(96, 202, 206);
+    font-family: Monoton;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.screen-s-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+
+.culture-text {
+
+margin: 50px;
+font-size: large;
+}
+
+
+.religious-text {
+
+    margin: 50px;
+    font-size: large;
+    }
+
+    .leisure-text {
+
+        margin: 50px;
+        font-size: large;
+        }
+
+        .eco-text {
+
+            margin: 50px;
+            font-size: large;
+            }
+
+
+
+            * {box-sizing:border-box}
+
+            /* Slideshow container */
+            .slideshow-container {
+              max-width: 1000px;
+              position: relative;
+              margin: auto;
+            }
+            
+            /* Make the images invisible by default */
+            .Containers {
+              display: none;
+            }
+            
+            /* forward & Back buttons */
+            .Back, .forward {
+              cursor: pointer;
+              position: absolute;
+              top: 48%;
+              width: auto;
+              margin-top: -23px;
+              padding: 17px;
+              color: grey;
+              font-weight: bold;
+              font-size: 19px;
+              transition: 0.4s ease;
+              border-radius: 0 5px 5px 0;
+              user-select: none;
+            }
+            
+            /* Place the "forward button" to the right */
+            .forward {
+              right: 0;
+              border-radius: 4px 0 0 4px;
+            }
+            
+            /*when the user hovers,add a black background with some little opacity */
+            .Back:hover, .forward:hover {
+              background-color: rgba(0,0,0,0.8);
+            }
+            
+            /* Caption Info */
+            .Info {
+              color: #e3e3e3;
+              font-size: 16px;
+              padding: 10px 14px;
+              position: absolute;
+              bottom: 10px;
+              width: 100%;
+              text-align: center;
+            }
+            
+            /* Worknumbering (1/3 etc) */
+            .MessageInfo {
+              color: #f2f2f3;
+              font-size: 14px;
+              padding: 10px 14px;
+              position: absolute;
+              top: 0;
+            }
+            
+            /* The circles or bullets and indicators */
+            .dots {
+              cursor: pointer;
+              height: 16px;
+              width: 16px;
+              margin: 0 3px;
+              background-color: #acc;
+              border-radius: 50%;
+              display: inline-block;
+              transition: background-color 0.5s ease;
+            }
+            
+            .enable, .dots:hover {
+              background-color: #717161;
+            }
+            
+            /* Faint animation */
+            .fade {
+              -webkit-animation-name: fade;
+              -webkit-animation-duration: 1.4s;
+              animation-name: fade;
+              animation-duration: 1.4s;
+            }
+            
+            @-webkit-keyframes fade {
+              from {opacity: .5}
+              to {opacity: 2}
+            }
+            
+            @keyframes fade {
+              from {opacity: .5}
+              to {opacity: 2}
+            }
+            
