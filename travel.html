@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+        <title>Travel</title>
+        <link rel="stylesheet" href="css/travelstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <i class="fa fa-plane" id="plane"></i>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="login.html">LOG IN</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Travel with us</h1>
+            </div>
+        </section>
+        <div class="booking-form-box">
+            <div class="radio-btn">
+                <input type="radio" class="btn" name="check" checked="checked"><span>Roundtrip</span>
+                <input type="radio" class="btn" name="check"><span>One Way</span> 
+                <input type="radio" class="btn" name="check"><span>Multy-City</span>
+            </div>
+            <div class="booking-form-text">
+                <label>From</label>
+    <select>
+        <option value="1">Australia</option>
+        <option value="1">ALbania</option>
+        <option value="1">Bolivia</option>
+        <option value="1">Brazil</option>
+        <option value="1">China</option>
+        <option value="1">Colombia</option>
+        <option value="1">Cuba</option>
+        <option value="1">Denmark</option>
+        <option value="1">Ecuador</option>
+        <option value="1">Egypt</option>
+        <option value="1">Finland</option>
+        <option value="1">France</option>
+        <option value="1">Germany</option>
+        <option value="1">Greece</option>
+        <option value="1">Haiti</option>
+        <option value="1">Hungary</option>
+        <option value="1">India</option>
+        <option value="1">Iraq</option>
+        <option value="1">Jamaica</option>
+        <option value="1">Japan</option>
+        <option value="1">Kenya</option>
+        <option value="1">Kuwait</option>
+        <option value="1">Lebanon</option>
+        <option value="1">Luxembourg</option>
+        <option value="1">Malaysia</option>
+        <option value="1">Morocco</option>
+        <option value="1">Nepal</option>
+        <option value="1">North Korea</option>
+        <option value="1">Oman</option>
+        <option value="1">Palestine</option>
+        <option value="1">Poland</option>
+        <option value="1">Romania</option>
+        <option value="1">Russia</option>
+        <option value="1">South Africa</option>
+        <option value="1">Spain</option>
+        <option value="1">Thailand</option>
+        <option value="1">Turkey</option>
+        <option value="1">United Arab Emirates (UAE)</option>
+        <option value="1">United States of America (USA)</option>
+        <option value="1">Venezuela</option>
+        <option value="1">Vietnam</option>
+        <option value="1">Yemen</option>
+        <option value="1">Zambia</option>
+        <option value="1">Zimbabwe</option>
+    </select>
+            </div>
+            <div class="booking-form-text">
+                <label>To</label>
+    <select>
+        <option value="1">Egypt</option>
+        <option value="1">United Kingdom (UK)</option>
+        <option value="1">Greece</option>
+        <option value="1">Turkey</option>
+        <option value="1">Morocco</option>
+        <option value="1">Mexico</option>
+        <option value="1">Switzerland</option>
+        <option value="1">Palestine</option>
+        <option value="1">Dubai</option>
+        <option value="1">Italy</option>
+    </select>
+            </div>
+            <div class="booking-form-text">
+                <label>Departing</label>
+                <input type="date">
+            </div>
+            <div class="booking-form-text">
+                <label>Returning</label>
+                <input type="date">
+            </div>
+            <div class="booking-form-text">
+                <label>Adults</label>
+                <input type="number" value="1">
+            </div>
+            <div class="booking-form-text">
+                <label>Children</label>
+                <input type="number" value="0">
+            </div>
+            <div class="booking-form-text">
+                <label>Travel Class</label>
+                <select>
+                    <option value="1">First Class</option>
+                    <option value="2">Business Class</option>
+                    <option value="3">Economy Class</option>
+                </select>
+            </div>
+            <div class="booking-form-text" id="btn"><button type="button" class="hero-btn">Show Flights</button>
+            </div>
+          </div>
+          <!-------------video---------->
+          <div class="vid">
+              <video width=70% height="500px" controls autoplay muted loop>
+                  <source src="media/travel.mp4" type="video/mp4">
+                  <source src="media/travel.ogg" type="video/ogg">
+              </video>
+          </div>
+          
+          <!-----------reviews---------->
+          <section class="reviews">
+              <h1>What our customers say</h1>
+              <p>Here are our most recent reviews</p>
+              <div class="row">
+                  <div class="reviews-col">
+                      <img src="media/user1.jpg">
+                      <div>
+                          <p>One of the best tourism websites on THE INTERNET!</p>
+                          <h3>John Wallace</h3>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                      </div>
+                  </div>
+                  <div class="reviews-col">
+                    <img src="media/user2.jpg">
+                    <div>
+                        <p>Easiest way to book a flight.</p>
+                        <h3>Khadija Bannar</h3>
+                        <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                <div class="booking-form-text" id="btn"><a href="feedback.html" class="hero-btn-feed">Send Feedback</a>
+              </div>
+          </section>
+
+
+
+
+          <!----------footer------------>
+          <section class="footer">
+            <h3>Find us at</h3>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section>
+          </body>
+            
+            
+        
+
+        <!----------JavaScript for Menu------------>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
