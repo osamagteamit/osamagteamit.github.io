@@ -1,0 +1,213 @@
+*{
+    padding:0 ;
+    margin: 0;
+}
+
+
+
+
+body{
+    background-color: rgb(6, 106, 123);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: system-ui;
+    
+}
+.bg img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(36, 109, 165);
+    background-color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(123, 143, 184);
+}
+header .logo{
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+header ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none ;
+    font-size: 20px;
+}
+header ul li{
+    margin-right: 30px ;
+}
+header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+header ul li a:hover{
+    background: rgb(0, 128, 111);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
+}
+
+.di1 video{
+width: auto;
+margin: auto;
+height: 450px;
+margin-left: 280px
+}
+.video video{
+    margin: auto;
+    width: auto;
+    height: 300px;
+    margin-left: 80px
+}
+div p{
+    font-size: 15px;
+    padding: 0px 200px 0px 200px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.eid{
+    color: rgb(167, 61, 12);
+    font-size: 90px;
+    font-family:  fantasy;
+    width: 300px;
+    margin-left: 520px;
+    background-color: rgb(53, 129, 162);
+    border-radius: 20px;
+
+}
+.di1 img{
+    width:250px;
+    height: 250px;
+    margin-left: 70px;
+    border-radius: 30px;
+}
+.di2 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 110px;
+    border-radius: 30px;
+}
+audio{
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+iframe{
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+}
+.di3 img{
+    width: 300px;
+    height: 200px;
+    margin-left: 110px;
+    border-radius: 30px;
+}
+
+.di4 img{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.di5 img{
+    width: 300px;
+    height: 200px;
+    margin-left: 110px;
+    border-radius: 30px;
+}
+.a{
+    color: red;
+    font-size: 40px;
+    font-family: fantasy ;
+    width: 600px;
+    padding: 20px;
+    margin-left: 340px;
+    background-color: aquamarine;
+    border-radius: 20px;
+
+}
+.asd p{
+    color: red;
+    font-size: 40px;
+    font-family: fantasy ;
+    width: 370px;
+    padding: 20px;
+    margin-left: 460px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+.food p{
+    color: rgb(7, 33, 40);
+    font-size: 40px;
+    font-family: fantasy ;
+    width: 350px;
+    padding: 20px;
+    margin-left: 420px;
+    background-color: rgb(183, 91, 233);
+    border-radius: 20px;
+}
+.food img{
+
+    width: 300px;
+    height: 200px;
+    margin-left: 110px;
+    border-radius: 30px;
+}
+.eid2{
+    color: red;
+    font-size: 40px;
+    font-family: fantasy ;
+    width: 280px;
+    padding: 20px;
+    padding-right: px;
+
+    margin-left: 500px;
+    background-color: rgb(2, 6, 5);
+    border-radius: 20px;
+    align-items: center;
+
+}
+.aa{
+    color: rgb(125, 180, 42);
+    font-size: 40px;
+    font-family: fantasy ;
+    width: 600px;
+    padding: 20px;
+    margin-left: 340px;
+    background-color: rgb(34, 51, 119);
+    border-radius: 20px;
+
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h3{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+    color: #103ceb;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
