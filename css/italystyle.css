@@ -72,6 +72,9 @@ header ul li a:hover{
     font-family: fantasy;
     color: rgb(36, 109, 165);
 }
+video{
+    border-radius: 20px;
+}
 
 .di1 video{
 width: auto;
