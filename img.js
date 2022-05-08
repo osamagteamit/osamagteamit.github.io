@@ -23,4 +23,4 @@ function prewimge(){
     
 }
 
-setInterval( nextimge , 500);
+setInterval( nextimge , 1000);
