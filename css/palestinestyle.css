@@ -55,6 +55,23 @@ header ul li a:hover{
     font-size: 25px;
 
 }
+.logo button{
+    width: 300px;
+    border :none ;
+    background-color: white;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(36, 109, 165);
+}
+
+.ul button{
+    width: 100px;
+    border :none ;
+    background-color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    color: rgb(36, 109, 165);
+}
 
 
 video{
