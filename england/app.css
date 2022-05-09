@@ -19,11 +19,27 @@
     --text-color: #ffffff;
 }
 
- body {
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    padding: 3rem 0 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+body {
     background: var(--body-color);
     color: var(--text-color);
 
-} 
+}
  table {
     width:25% ;
     border:10px solid  rgb(34, 217, 217) ;
@@ -38,10 +54,6 @@ table td {
     background-color: #000000ef;
 
 }
-
-
-
-
 
 
 .history {
@@ -106,7 +118,7 @@ border-radius: 25px;
   box-shadow: 0 0 0 2rem skyblue;
   border-radius: 12px;
   font: bold 1rem sans-serif;
-  margin: 8rem;
+  margin: 2rem;
   padding: 1rem;
   outline-offset: 0.5rem;
 }
@@ -115,9 +127,8 @@ border-radius: 25px;
 .heading-title {
     font-size: 2.5em;
     font-weight: 700;
-    margin-left: 380px;
+    margin-left: 480px;
     color: #eaeaea;
-
 }
 
 
@@ -125,7 +136,7 @@ border-radius: 25px;
     display: flex;
     align-items: flex-start;
     column-gap: 0.8rem;
-    color:blue ;
+    color: var(--text-color);
 }
 
 .watch-btn {
@@ -137,7 +148,7 @@ border-radius: 25px;
 
 .watch-btn .bx {
     font-size: 21px;
-    background: #17cbdf;
+    background: #df1717;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -216,8 +227,15 @@ border-radius: 25px;
     transition: 0.5s;
 }
 
+/*copyright  */
+.copyright {
+    text-align: center;
+    padding: 20px;
+}
 
-/* play container================================ */
+/* box1======================================================================================================================= */
+
+/* play container================================= */
 
 
 
@@ -298,15 +316,12 @@ font-size: large;
               max-width: 1000px;
               position: relative;
               margin: auto;
-            
-              
-              
             }
             
             /* Make the images invisible by default */
-             .Containers {
+            .Containers {
               display: none;
-            } 
+            }
             
             /* forward & Back buttons */
             .Back, .forward {
@@ -316,7 +331,7 @@ font-size: large;
               width: auto;
               margin-top: -23px;
               padding: 17px;
-              color: rgb(0, 200, 249);
+              color: grey;
               font-weight: bold;
               font-size: 19px;
               transition: 0.4s ease;
@@ -358,11 +373,34 @@ font-size: large;
             /* The circles or bullets and indicators */
             .dots {
               cursor: pointer;
-              height: 12px;
-              width: 12px;
+              height: 16px;
+              width: 16px;
               margin: 0 3px;
-              background-color: rgb(16, 245, 245);
+              background-color: #acc;
               border-radius: 50%;
               display: inline-block;
               transition: background-color 0.5s ease;
             }
+            
+            .enable, .dots:hover {
+              background-color: #717161;
+            }
+            
+            /* Faint animation */
+            .fade {
+              -webkit-animation-name: fade;
+              -webkit-animation-duration: 1.4s;
+              animation-name: fade;
+              animation-duration: 1.4s;
+            }
+            
+            @-webkit-keyframes fade {
+              from {opacity: .5}
+              to {opacity: 2}
+            }
+            
+            @keyframes fade {
+              from {opacity: .5}
+              to {opacity: 2}
+            }
+            
