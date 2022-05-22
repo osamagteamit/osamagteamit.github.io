@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('photos/bg555.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fxed;
+    height: 100vh;
+    width: 100%;
+    font-family: system-ui;
+}
+a{
+    text-decoration: none;
+    color: rgb(36, 109, 165);
+    background-color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+header .logo{
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+header ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none ;
+    font-size: 20px;
+}
+header ul li{
+    margin-right: 30px ;
+}
+header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+header ul li a:hover{
+    background: rgb(185, 207, 21);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
+}
+.table{
+    padding: 0px;
+    width: 370px;
+    height: 250px;
+    margin-left: 420px;
+    margin-top: 75px;
+    border-radius: 20px;
+    border-style:solid;
+    border-block-color: white;
+    border-right-color: white;
+    border-left-color: white;
+
+}
+.em{
+    width: 195px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+}
+
+.pass{
+    width: 195px;
+    height:30px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+
+}
+.li{
+    width: 30px;
+    margin-top: 500px;
+    font-size: 30px;
+    background-color: #1877f2;
+    color: rgb(255, 255, 255);
+    font-family:inherit ;
+    font-family: bold;
+    padding: 5px 100px 5px 100px;
+    margin-left: 10px ;
+    border-radius: 20px;
+
+}
+.li:hover{
+background-color: rgb(71, 71, 176);
+}
